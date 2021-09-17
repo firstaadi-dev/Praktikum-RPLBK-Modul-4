@@ -38,17 +38,21 @@ export function Search() {
     </tr>
   ));
   return (
-    <div>
-      <div>
+    <div style={{display:"flex",flexDirection:"column"}}>
+      <div className='cari'>
+        <div></div>
+        <div>
         <input
           onChange={handleSearch}
           type="text"
           placeholder="Insert book name"
+          size="50"
         />
+        </div>
       </div>
       <h1>Search Result</h1>
       <div>
-        <table>
+        <table border='1' style={{borderCollapse:'collapse'}}>
           <thead>
             <tr>
               <th>Title</th>

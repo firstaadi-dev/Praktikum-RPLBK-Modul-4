@@ -1,3 +1,15 @@
 tbody {
   font-weight: 200;
 }
+.cari{
+  display: flex;
+  padding-left: 75vw;
+  padding-top: 5px;
+}
+th{
+  border: 1px solid black;
+}
+tbody{
+  border: 1px solid black;
+}
+
